@@ -1,0 +1,9 @@
+.default_image{
+    height: 170px;
+    width: auto;
+}
+
+.house_text{
+    text-align: left;
+    font-size: 30px;
+}
