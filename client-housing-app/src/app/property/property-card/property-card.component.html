@@ -1,12 +1,18 @@
-
-<div class="row">
-    <div class="card shadow lg col-sm-4 p-3">
-        <img src="assets/images/house_default.jpg" class="default_image">
-            <div class="card-body p-1" >
-            <h1 class="house_text">{{Property.Name}}</h1>
-            <h1 class="house_text">{{Property.Type}}</h1>
-            <h1 class="house_text">{{Property.Price}}</h1>
-            </div>
+<div class="card">
+    <div class="card-imgwrapper">
+        <img src="assets/images/house_default.jpg" class="class-img-top">
+        <ul class="list-inline text-center member-icons animate">
+            <li class="list-inline-item">
+                <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-primary"><i class="fa-solid fa-phone-volume"></i></button>
+            </li>
+        </ul>
     </div>
-    
+    <div class="card_body p-1" >
+        <h1 class="house_text">{{property.Name}}</h1>
+        <h1 class="house_text">{{property.Type}}</h1>
+        <h1 class="house_text">{{property.Price}}</h1>
+    </div>
 </div>
